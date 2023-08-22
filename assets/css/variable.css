@@ -1,0 +1,18 @@
+@font-face{
+    font-family: 'Inter Variable';
+    src: url('../fonts/Inter-VariableFont_slnt-wght.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+:root{
+    --light-blue:rgb(231,245,254);
+    --purple: rgb(77,114,252);
+    --dark-blue: rgb(41,56,76);
+    --gray:rgb(130,144,159);
+}
+
+body{
+    font-family: Inter Variable;
+}
