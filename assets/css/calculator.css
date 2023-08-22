@@ -8,8 +8,8 @@
     top: 50px;
 
     box-shadow: -3px 5px 20px -1px rgba(0,0,0,0.11);
--webkit-box-shadow: -3px 5px 20px -1px rgba(0,0,0,0.11);
--moz-box-shadow: -3px 5px 20px -1px rgba(0,0,0,0.11);
+    -webkit-box-shadow: -3px 5px 20px -1px rgba(0,0,0,0.11);
+    -moz-box-shadow: -3px 5px 20px -1px rgba(0,0,0,0.11);
 }
 
 .calculator__title{
