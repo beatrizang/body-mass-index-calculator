@@ -1,4 +1,7 @@
 .limitations{
+    background: url('../images/pattern-curved-line-right.svg');
+    background-repeat: no-repeat;
+    background-position: 10% 45%;
     padding: 3rem;
 }
 

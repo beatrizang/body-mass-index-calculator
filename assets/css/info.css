@@ -1,5 +1,8 @@
 .info{
     align-items: center;
+    background: url('../images/pattern-curved-line-left.svg');
+    background-repeat: no-repeat;
+    background-position: 80% -20%;
     display: flex;
     padding: 3rem;
     justify-content: space-between;
