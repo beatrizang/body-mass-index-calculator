@@ -1,0 +1,22 @@
+.tips{
+    background: linear-gradient(135deg, white 0%, var(--very-light-blue) 35%);
+    border-radius: 1rem;
+    display: flex;
+    padding: 3rem;
+    margin: 3rem;
+}
+
+.tip__img{
+    width: 70px;
+}
+
+.tip__title{
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+}
+
+.tip__para{
+    color: var(--gray);
+    width: 90%;
+}
