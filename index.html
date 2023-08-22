@@ -7,49 +7,54 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/variable.css">
+  <link rel="stylesheet" href="./assets/css/intro.css">
+  <link rel="stylesheet" href="./assets/css/calculator.css">
   <title>Frontend Mentor | Body Mass Index Calculator</title>
 </head>
 <body>
-
-  <header>
-    <nav>
+  <header class="header">
+    <nav class="header__nav">
       <img src="./assets/images/logo.svg" alt="Logo Body Mass Index">
     </nav>
-    <div>
-      <h1>Body Mass Index Calculator</h1>
-      <p>
+    <div class="intro">
+      <h1 class="intro__title">Body Mass Index Calculator</h1>
+      <p class="intro__para">
         Better understand your weight in relation to your height using our 
         body mass index (BM) calculator. While BMI is not the sole determinant 
         of a healthy weight, it offers a valuable starting point to evaluate 
         your overall health and well-being.
       </p>
     </div>
-    <div>
-      <h2>Enter your details below</h2>
-      <div>
-        <div>
+    <div class="calculator">
+      <h2 class="calculator__title">Enter your details below</h2>
+      <div class="calculator__radios">
+        <div class="radio">
           <input type="radio" id="metric" name="metrics">
-          <label>Metric</label>
+          <label class="radio__label">Metric</label>
         </div>
-        <div>
+        <div class="radio">
           <input type="radio" id="imperial" name="metrics">
-          <label>Imperial</label>
+          <label class="radio__label">Imperial</label>
         </div>
       </div>
-      <div>
-        <div>
-          <label>Height</label>
-          <input type="text" placeholder="0">
-          <p>cm</p>
+      <div class="calculator__inputs">
+        <div class="input">
+          <label class="input__label">Height</label>
+          <div class="input__group">
+            <input class="input__data" type="text" placeholder="0">
+            <p class="input__unit">cm</p>
+          </div>
         </div>
-        <div>
-          <label>Weight</label>
-          <input type="text" placeholder="0">
-          <p>kg</p>
+        <div class="input">
+          <label class="input__label">Weight</label>
+          <div class="input__group">
+            <input class="input__data" type="text" placeholder="0">
+            <p class="input__unit">kg</p>
+          </div>
         </div>
       </div>
-      <div>
-        <p>Welcome!</p>
+      <div class="result">
+        <p class="result__title">Welcome!</p>
         <p>Enter your height and weight and you'll see your BMI result here</p>
       </div>
     </div>
@@ -94,7 +99,6 @@
       </p>
     </div>
   </section>
-
   <section>
     <div>
       <div>
@@ -145,7 +149,7 @@
       </div>
       <div>
         <div>
-          <img src="./assets/images/icon-race.svg" alt="">
+          <img src="./assets/images/icon-race.svg">
           <p>Race</p>
         </div>
         <p>

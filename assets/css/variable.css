@@ -7,10 +7,12 @@
 
 
 :root{
-    --light-blue:rgb(231,245,254);
+    --very-light-blue:rgba(231, 245, 254, 0.742);
     --purple: rgb(77,114,252);
     --dark-blue: rgb(41,56,76);
+    --light-blue: rgb(225,241,254);
     --gray:rgb(130,144,159);
+    --light-gray:rgba(178, 189, 200, 0.652);
 }
 
 body{
