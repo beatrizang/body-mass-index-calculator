@@ -98,6 +98,10 @@
     width: 50%;
 }
 
+#ideal-weight{
+    font-weight: 700;
+}
+
 @media screen and (max-width: 728px) {
     .calculator{
         align-items: center;
