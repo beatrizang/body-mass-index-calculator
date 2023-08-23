@@ -69,7 +69,7 @@ function bmi(){
         else{
         $('#bmi').html(parseFloat(bmi).toFixed(1));
         suggest(bmi);
-        idealWeight($('#height').val()*2.54);
+        idealWeightImperial($('#height').val());
         }
     }
 }
@@ -111,6 +111,46 @@ function idealWeight(height){
 
     if(height>= 193){
         idealWeight.html('71kg - 89kg');
+    }
+}
+
+function idealWeightImperial(height){
+    let idealWeight = $('#ideal-weight');
+
+    if(height>= 60 && height<= 61){
+        idealWeight.html('97lb - 127lb');
+    }
+
+    if(height>= 62 && height<= 63){
+        idealWeight.html('104lb - 135lb');
+    }
+
+    if(height>= 64 && height<= 65){
+        idealWeight.html('110lb - 144lb');
+    }
+
+    if(height>= 66 && height<= 67){
+        idealWeight.html('118lb - 153lb');
+    }
+
+    if(height>= 68 && height<= 69){
+        idealWeight.html('125lb - 162lb');
+    }
+
+    if(height>= 70 && height<= 71){
+        idealWeight.html('132lb - 172lb');
+    }
+
+    if(height>= 72 && height<= 73){
+        idealWeight.html('140lb - 182lb');
+    }
+
+    if(height>= 74 && height<= 75){
+        idealWeight.html('148lb - 192lb');
+    }
+
+    if(height>= 76){
+        idealWeight.html('156lb - 197lb');
     }
 }
 
