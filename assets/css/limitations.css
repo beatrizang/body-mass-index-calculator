@@ -60,6 +60,39 @@
     margin-top: 1rem;
 }
 
+@media screen and (max-width: 728px) {
+
+    .limitations{
+        background: none;
+        padding: 3rem 1rem;
+    }
+
+    .limitation{
+        flex-direction: column;
+    }
+
+    .limitation__info{
+        margin-right: 0rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .limitation__box{
+        border-radius: 1rem;
+        margin: 1rem 0rem 0rem 0;
+        padding: 1.5rem;
+        width: 90%;
+    }
+    
+    .second{
+        margin-left: 0%;
+    }
+    
+    .third{
+        margin-left: 0%;
+    }
+}
+
 @media screen and (max-width: 375px) {
 
     .limitations{

@@ -23,7 +23,31 @@
     padding-bottom: 5rem;
 }
 
+@media screen and (max-width: 728px) {
+    .header{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
 
+    .intro__title{
+        padding: 0 1rem;
+    
+    }
+    
+    .intro{
+        margin-top: 5rem;
+        width: 100%;
+    }
+    
+    .intro__para{
+        padding: 1rem 1rem 2rem 1rem;
+    }
+}
 
 @media screen and (max-width: 375px) {
     .header{
