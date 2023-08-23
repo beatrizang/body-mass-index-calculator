@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="./assets/css/tips.css">
   <link rel="stylesheet" href="./assets/css/limitations.css">
   <title>Frontend Mentor | Body Mass Index Calculator</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 <body>
   <header class="header">
@@ -32,11 +34,11 @@
       <h2 class="calculator__title">Enter your details below</h2>
       <div class="calculator__radios">
         <div class="radio">
-          <input type="radio" id="metric" name="metrics">
+          <input class="radio__radio" type="radio" id="metric" name="metrics">
           <label class="radio__label">Metric</label>
         </div>
         <div class="radio">
-          <input type="radio" id="imperial" name="metrics">
+          <input class="radio__radio" type="radio" id="imperial" name="metrics">
           <label class="radio__label">Imperial</label>
         </div>
       </div>
@@ -44,21 +46,30 @@
         <div class="input">
           <label class="input__label">Height</label>
           <div class="input__group">
-            <input class="input__data" type="text" placeholder="0">
-            <p class="input__unit">cm</p>
+            <input id="height" class="input__data" type="number" placeholder="0">
+            <p id="height-unit" class="input__unit"></p>
           </div>
         </div>
         <div class="input">
           <label class="input__label">Weight</label>
           <div class="input__group">
-            <input class="input__data" type="text" placeholder="0">
-            <p class="input__unit">kg</p>
+            <input id="weight" class="input__data" type="number" placeholder="0">
+            <p id="weight-unit" class="input__unit"></p>
           </div>
         </div>
       </div>
       <div class="result">
-        <p class="result__title">Welcome!</p>
-        <p>Enter your height and weight and you'll see your BMI result here</p>
+        <div class="result__welcome">
+          <p class="result__title">Welcome!</p>
+          <p>Enter your height and weight and you'll see your BMI result here</p>
+        </div>
+        <div class="result__result">
+          <div class="result__left">
+            <p class="left__title">Your BMI is...</p>
+            <p class="left__bmi">24.5</p>
+          </div>
+          <p class="result__text">Your BMI suggests you´re a <span></span> weigth. Your ideal weight is between </p>
+        </div>
       </div>
     </div>
   </header>
@@ -161,5 +172,6 @@
       </div>
     </div>
   </section>
+  <script src="./assets/js/index.js"></script>
 </body>
 </html>
