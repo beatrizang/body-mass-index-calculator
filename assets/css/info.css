@@ -31,6 +31,7 @@
 
 @media screen and (max-width: 375px) {
     .info{
+        background: none;
         flex-direction: column;
         padding: 3rem 0;
         justify-content: center;

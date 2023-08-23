@@ -63,6 +63,7 @@
 @media screen and (max-width: 375px) {
 
     .limitations{
+        background: none;
         padding: 3rem 1rem;
     }
 
