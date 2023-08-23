@@ -48,16 +48,29 @@ function bmi(){
 
     if(isMetric){
         bmi = bmiMetric($('#height').val(),$('#weight').val());
-        $('#bmi').html(parseFloat(bmi).toFixed(1));
-        suggest(bmi);
-        idealWeight($('#height').val());
+
+        if (isNaN(bmi) || bmi == 0 || !isFinite(bmi)){
+            $('#bmi').html(0);
+        }
+        else{
+            $('#bmi').html(parseFloat(bmi).toFixed(1));
+            suggest(bmi);
+            idealWeight($('#height').val());
+        }
+        
     }
     
     else{
         bmi = bmiImperial($('#height').val(),$('#weight').val());
+
+        if (isNaN(bmi) || bmi == 0 || !isFinite(bmi)){
+            $('#bmi').html(0);
+        }
+        else{
         $('#bmi').html(parseFloat(bmi).toFixed(1));
         suggest(bmi);
         idealWeight($('#height').val()*2.54);
+        }
     }
 }
 
@@ -119,7 +132,6 @@ function suggest(bmi){
         bmiIndex.html('obese');
     }
 }
-
 
 function bmiMetric(height,weight){
     return (weight/((height*0.01)*(height*0.01)));
