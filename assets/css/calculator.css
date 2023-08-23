@@ -72,3 +72,23 @@
     font-weight: 700;
     padding-bottom: 1rem;
 }
+
+@media screen and (max-width: 375px) {
+    .calculator{
+        width: 90%;
+        position: relative;
+        padding: 2rem 0;
+        right: 0px;
+        top: 0px;
+
+    }
+
+    .calculator__inputs{
+        flex-direction: column;
+    }
+
+    .input__group{
+        margin-right: 0rem;
+        margin-top: 1rem;
+    }
+}

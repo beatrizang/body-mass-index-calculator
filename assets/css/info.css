@@ -28,3 +28,29 @@
     margin-top: 2rem;
     width: 90%;
 }
+
+@media screen and (max-width: 375px) {
+    .info{
+        flex-direction: column;
+        padding: 3rem 0;
+        justify-content: center;
+    }
+
+    .info__img{
+        width: 100%;
+    }
+
+    .info__text{
+        margin-top: 1.5rem;
+        width: 95%;
+    }
+
+    .info__title{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .info__para{
+        width: 100%;
+    }
+}

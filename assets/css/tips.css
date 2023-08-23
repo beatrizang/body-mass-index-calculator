@@ -20,3 +20,16 @@
     color: var(--gray);
     width: 90%;
 }
+
+@media screen and (max-width: 375px) {
+    .tips{
+        border-radius: 0rem;
+        flex-direction: column;
+        padding: 1rem;
+        margin: 0rem;
+    }
+
+    .tip{
+        padding-top: 3rem;
+    }
+}
