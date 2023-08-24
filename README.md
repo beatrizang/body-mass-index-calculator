@@ -1,4 +1,4 @@
-# Frontend Mentor - Multi-step form solution
+# Frontend Mentor - Body Mass Index calculator solution
 
 This is a solution to the [Body Mass Index calculator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/body-mass-index-calculator-brrBkfSz1T). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
