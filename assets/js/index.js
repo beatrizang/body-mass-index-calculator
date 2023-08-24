@@ -50,7 +50,8 @@ function bmi(){
         bmi = bmiMetric($('#height').val(),$('#weight').val());
 
         if (isNaN(bmi) || bmi == 0 || !isFinite(bmi)){
-            $('#bmi').html(0);
+            $('#result-welcome').show();
+            $('#result-result').hide();
         }
         else{
             $('#bmi').html(parseFloat(bmi).toFixed(1));
@@ -64,7 +65,8 @@ function bmi(){
         bmi = bmiImperial($('#height').val(),$('#weight').val());
 
         if (isNaN(bmi) || bmi == 0 || !isFinite(bmi)){
-            $('#bmi').html(0);
+            $('#result-welcome').show();
+            $('#result-result').hide();
         }
         else{
         $('#bmi').html(parseFloat(bmi).toFixed(1));
