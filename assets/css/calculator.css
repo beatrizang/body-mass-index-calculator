@@ -154,6 +154,11 @@
         justify-content:center;
     }
 
+    .result__text{
+        margin-top: 1rem;
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
